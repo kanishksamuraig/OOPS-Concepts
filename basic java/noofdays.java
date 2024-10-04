@@ -8,7 +8,7 @@ public class noofdays {
         System.out.print("Enter the month:");
         int n = obj.nextInt();
         int month[], i;
-        month = new int[11];
+        month = new int[12];
         for (i = 0; i < month.length; i++) {
             if (i % 2 == 0 && i <= 6) {
                 if (i == 1) {
